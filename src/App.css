@@ -1,0 +1,120 @@
+.App {
+  display:flex;
+  justify-content: center;
+  height: 100vh;
+  background-color:rgb(117, 126, 126);
+}
+
+
+.Inputs {
+  height: 450px;
+  width: 70%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(68, 117, 207);
+  position:absolute;
+  right:20px;
+  top:50px;
+}
+
+
+.Employee {
+  height: 50px;
+  width: 400px;
+  font-size: 18px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  left:60px;
+  top:0;
+  color: rgb(17, 31, 70);
+}
+
+.Records {
+  position: absolute;;
+  left:10px;
+  top:40px;
+  font-size: 15px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:10px;
+  padding-left: 10px;
+}
+.Records button{
+  border:none;
+  width:150px;
+  height:20px;
+  color:#3a76ec;
+  background-color:rgb(123, 231, 109);
+  font-size: 10px;
+  margin:10px;
+  padding-left: 10px;
+}
+
+.Records button:hover{
+  cursor: pointer;
+}
+.Display {
+  height: 500px;
+  width: 300px;
+  font-size: 15px;
+  display:flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  position: relative;;
+  margin:10px;
+  padding-left: 10px;
+}
+.Display.Values{
+  font-size: 15px;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;;
+  left:10px;
+  top:1px;
+  margin:1px;
+  padding-left: 1px;
+}
+
+.App-logo {
+  height: 20vmin;
+  position:absolute;
+  left:10px;
+  top:30px;
+  pointer-events: none;
+  background-color: rgb(29, 32, 226);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 30s linear;
+  }
+}
+
+.App-header {
+  background-color: #03163d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(23, 177, 35);
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
